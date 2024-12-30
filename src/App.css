@@ -1,0 +1,58 @@
+body{
+  background-color: lightgray;
+}
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+form input{
+  height: 40px;
+  flex-basis: 80%;
+}
+form button{
+  flex-basis: 20%;
+  background-color: lightblue;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
+.outerdiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 40px;
+  text-align: center;
+}
+.outerdiv ul li{
+
+  color: black;
+  padding: 10px;
+  font-size: 25px;
+  position: relative;
+  text-align: left;
+  background-color: lightblue;
+  width: 1150px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+.outerdiv ul li span{
+
+right: 10px;
+position: absolute;
+cursor: pointer;
+}
+.outerdiv{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.completetodo{
+  text-decoration: line-through;
+  color: red;
+  background-color: yellow;
+}
